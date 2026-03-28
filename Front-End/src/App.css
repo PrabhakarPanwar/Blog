@@ -1,0 +1,24 @@
+h1 {
+  font-size: 3xl;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: x-large;
+  font-weight: 500;
+}
+
+input,
+button {
+  outline: none;
+  padding: 3px;
+}
+
+hr {
+  scale: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.active hr {
+  scale: 1;
+}
